@@ -1,8 +1,7 @@
-import './index.css';
-import React from 'react';
+import "./index.css";
 
 export const Loading = () => (
-    <div className='loader-container'>
-        <div className='smooth-loader'></div>
-    </div>
-)
+  <div className="loader-container">
+    <div className="smooth-loader"></div>
+  </div>
+);

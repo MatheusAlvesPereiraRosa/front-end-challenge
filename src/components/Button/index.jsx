@@ -1,11 +1,7 @@
-import './index.css';
-import React from 'react';
+import "./index.css";
 
 export const Button = ({ onClick }) => (
-    <button
-        onClick={onClick}
-        className='btn-load'>
-        Load more data
-    </button>
-)
-
+  <button onClick={onClick} className="btn-load">
+    Load more data
+  </button>
+);

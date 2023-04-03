@@ -1,21 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Home from './templates/Home';
-import Info from './templates/Info';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Navbar } from './components/Navbar';;
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Home from "./templates/Home";
+import Info from "./templates/Info";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Navbar } from "./components/Navbar";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/info' element={<Info />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/info" element={<Info />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
